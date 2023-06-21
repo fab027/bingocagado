@@ -66,14 +66,6 @@ header {
     font-size: 24px;
 }
 
-.cartela td:not(:nth-child(6n)) {
-    border-right: none;
-}
-
-.cartela tr:not(:last-child) td {
-    border-bottom: none;
-}
-
 .cartela th {
     padding: 10px;
     text-align: center;
