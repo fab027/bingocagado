@@ -1,1 +1,3 @@
 # bingocagado
+
+* Tentei fazer um bingo mas ficou com alguns erros que eu não soube resolver, infelizmente sou meio ruim nisso e preciso melhorar, errei fui mlk...
