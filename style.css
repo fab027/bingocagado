@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: wavy;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+header {
+    background-color: chartreuse;
+    color: black;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gerarcartela,
+.resetjogo,
+#startjogo {
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 15px 15px 0 0;
+    font-weight: bolder;
+}
+
+
+.cartela-container {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+}
+
+.cartela {
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    border-collapse: collapse;
+}
+
+.cartela td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 24px;
+}
+
+.cartela td:not(:nth-child(6n)) {
+    border-right: none;
+}
+
+.cartela tr:not(:last-child) td {
+    border-bottom: none;
+}
+
+.cartela th {
+    padding: 10px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: gray;
+}
+
+.sorteado {
+    background-color: green;
+}
+
+.numero-sorteado {
+    background-color: green;
+
+} 
+  
+.bolasorteadas {
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+} 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bingo plau</title>
+</head>
+
+<body>
+    <main>
+        <header>Bingo La</header>
+        <section class="container">
+            <div class="game">
+                <button class="gerarcartela" onclick="gerarCartela()">Criar Cartela</button>
+                <button class="resetjogo" onclick="reiniciarJogo()">Resetar Partida</button>
+            </div>
+
+            <div class="cartelas" id="espacocartela">
+
+            </div>
+
+
+            <div class="sorteio">
+                <button id="startjogo" onclick="startGame()">Começar Partida</button>
+
+                <h3>Bolas Sorteadas</h3>
+                <div class="bolasorteadas" id="bolasorteadas"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
